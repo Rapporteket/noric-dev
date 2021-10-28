@@ -11,7 +11,8 @@ RUN cat /home/rstudio/rap_config/db.yml >> /home/rstudio/rap_config/dbConfig.yml
     && cat /home/rstudio/rap_config/rapbase.yml >> /home/rstudio/rap_config/rapbaseConfig.yml \
     && rm /home/rstudio/rap_config/db.yml \
     && rm /home/rstudio/rap_config/rapbase.yml \
-    && R -e "install.packages(c('covr', \
+    && R -e "install.packages(c('car', \
+                                'covr', \
                                 'dplyr', \
                                 'DT', \
                                 'ggplot2', \

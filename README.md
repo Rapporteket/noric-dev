@@ -6,5 +6,5 @@ Speed up development processes for noric...
 ```docker build -t rapporteket/noric-dev .```
 
 ### Run
-Use docker compose from main repository.
+Use ```docker-compose up``` from main repository.
 
